@@ -20,3 +20,27 @@ To remove a container
 ```
 docker rm <container name / container ID>
 ```
+To view docker images
+```
+docker images
+```
+To remove an image
+```
+docker rmi <image name/image ID>
+```
+To know the docker status
+```
+systemctl status docker
+```
+To create docker volume
+```
+docker volume create <volume name>
+```
+To list volume
+```
+docker volume ls
+```
+To inspect a volume
+```
+docker inspect <volume name>
+```
